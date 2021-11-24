@@ -42,4 +42,4 @@ after_success:
   - docker push officialdarnyc/reverseproxy:v1
   - docker push officialdarnyc/udagram-api-user:v1
   - docker push officialdarnyc/udagram-api-feed:v1
-  - docker push officialdarnyc/udagram-api-frontend:v1
+  - docker push officialdarnyc/udagram-frontend:v1
