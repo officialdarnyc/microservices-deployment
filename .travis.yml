@@ -32,8 +32,8 @@ jobs:
 
     - stage: Build udagram-frontend image
       script:
-      - docker build -t udagram-api-frontend ./project/udagram-api-frontend
-      - docker tag udagram-api-frontend officialdarnyc/udagram-api-frontend:v1
+      - docker build -t udagram-frontend ./project/udagram-frontend
+      - docker tag udagram-frontend officialdarnyc/udagram-frontend:v1
 
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
